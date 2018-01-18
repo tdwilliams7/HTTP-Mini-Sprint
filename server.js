@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const app = express();
 
-const friends = [
+let friends = [
 	{
 		id: 1,
 		name: 'Ben',
